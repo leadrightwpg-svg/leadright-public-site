@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | LeadRight WPG</title>
+<meta name="description" content="Book a free walkthrough for your business or apply to sell for LeadRight WPG in Winnipeg.">
+<link rel="canonical" href="https://leadrightwpg.com/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12h13M13 6l6 6-6 6" stroke="#F7F4EC" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span class="logo-word">LeadRight<small>WPG · FIELD SALES</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="for-businesses.html">For Businesses</a>
+      <a href="join-the-team.html">Join The Team</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-cta"><a href="contact.html" class="btn btn-primary">Get a free walkthrough</a></div>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <div class="eyebrow">Contact</div>
+    <h1>Let's talk</h1>
+    <p class="lead">Whether you need customers or you want to sell, tell us a bit about yourself and we'll follow up within a day or two.</p>
+  </div>
+</section>
+
+<section id="apply">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <h2>Reach us directly</h2>
+      <p>Prefer email over a form? Write to us and we'll get back to you personally.</p>
+      <div class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" fill="none"/><path d="M4 6l8 7 8-7"/></svg>
+        leadrightwpg@gmail.com
+      </div>
+      <div class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Winnipeg, Manitoba
+      </div>
+    </div>
+
+    <form class="lead-form" action="https://formspree.io/f/xdeovnrg" method="POST">
+      <div class="role-toggle">
+        <button type="button" class="role-btn active" data-role="Business">I need customers</button>
+        <button type="button" class="role-btn" data-role="Rep applicant">I want to sell</button>
+      </div>
+      <input type="hidden" name="Inquiry type" id="lead-role" value="Business">
+
+      <div class="form-row">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="Name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="Phone" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" required>
+      </div>
+      <div class="field">
+        <label for="business">Business name (if applicable)</label>
+        <input type="text" id="business" name="Business name">
+      </div>
+      <div class="field">
+        <label for="message">Tell us a bit more</label>
+        <textarea id="message" name="Message" placeholder="What are you selling, or what kind of route are you looking for?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%;">Send it</button>
+      <p id="form-status" hidden style="margin-top:12px; font-size:13.5px; color:var(--slate);"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="for-businesses.html">For Businesses</a>
+      <a href="join-the-team.html">Join The Team</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-fine">© 2026 LeadRight WPG · Winnipeg, MB</div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
